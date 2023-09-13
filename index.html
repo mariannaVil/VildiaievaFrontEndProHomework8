@@ -6,6 +6,91 @@
     <title>Document</title>
 </head>
 <body>
+    <script>
+        let a = '';
+        for (let i = 10; i < 21; i++) {
+        a = a + i + ',';
+        }
+        alert(a);
     
+        let b = '';
+        for (let i = 10; i < 21; i++) {
+        b = b + i*i + ',';
+        }
+        alert(b);
+    
+        let c = '';
+        for (let i = 7; i < 8; i++) {
+         for (let j = 1; j <11; j++)
+        c = c + i + '*' + j + '=' + i*j + ' ';
+        }
+        alert(c);
+    
+        let sum = 0;
+        for (let i = 1; i<=15; i++) {
+            sum = sum + i;
+        }
+        alert (sum);
+    
+        let d = 15;
+        for (let i = 15; i<=35; i++) {
+            d = d * i;
+        }
+        alert (d);
+    
+        let e = 1;
+        for (let i = 1; i<=500; i++) {
+            e = (e+i)/500;
+        }
+        alert (e);
+    
+        let suma = 30;
+        for (let i = 30; i<=80; i++) {
+            if (i % 2 === 0) 
+            suma = suma + i; 
+        } 
+        alert (suma);
+    
+          let f = '';
+          for (i = 100; i<=200; i++) {
+            if (i % 3 === 0)
+            f = f + i + ',';
+        }
+        alert (f);
+    
+        let g = 8;
+        let dil = '';
+        for (let i = 1; i<=8; i++) {
+            if (g % i === 0) {
+                dil = dil + i + ',';
+            }    
+        }
+        alert (dil);
+    
+        let n = 8;
+        let count = 0;
+        for (let i = 1; i <= n; i++) {
+            if (n % i === 0 && i % 2 === 0) {
+        count++;
+            }
+        }
+        alert (count);
+    
+        let v = 8;
+        let s = 0;
+        for (let i = 1; i <= v; i++) {
+            if (v % i === 0 && i % 2 === 0) {
+        s += i;
+            }
+        }
+        alert (s);
+    
+        let k = '';
+        for (let i = 1; i <=10; i++) {
+         for (let j = 1; j <=10; j++)
+        k = k + i + '*' + j + '=' + i*j + ' '; 
+        }
+        alert(k);
+        </script>
 </body>
 </html>
